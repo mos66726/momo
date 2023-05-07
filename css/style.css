@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Jomhuria&display=swap');    
+*{   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+
+
+
+
+    
+}
+body{
+    background-color: #0f0f0f;
+
+}
+.com{
+    margin: auto;
+}
+.ro1 h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+}
+.ro1{
+    width: 100%;
+    height: 70px;
+    background-color: #eef3f6;
+
+}
+.ro2{
+    margin: auto;
+    text-align: center;
+}
+
+.ro2 ul{
+    
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    list-style: none;
+    
+}
+.ro2 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(0, 136, 255);
+    border: rgb(0, 136, 255) 10px solid;
+    border-radius: 5px;
+}
+.ro3{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* display:flex ;
+    justify-content: flex-start; */
+    align-items: flex-start;
+    padding-bottom: 80px;
+}
+.ro3{
+    margin: auto;
+}
+.ro3 .ro03{
+    width: 140px;
+    height: 170px;
+    background-color: #ffffff;
+    margin: 20px;
+    margin: 20px 7px 0px 7px;
+    margin-top: 30px;
+    border-bottom: 40px rgb(0, 136, 255) solid;
+}
+.ro03 h2{
+    text-align: right;
+    padding-right: 4px;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+.ro03 img{
+    width:140px ;
+    height: 130px;
+}
+/* .ro3 .ro03 :hover{
+    border: 5px red solid;
+    color: brown;
+} */
+/* .ro13{
+    width: 150px;
+    height: 40px;
+    margin: 0px 20px 20px 20px;
+    background-color: rgb(0, 136, 255);
+    
+} */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(198, 199, 201);
+    text-align:center;
+    
+   
+}
